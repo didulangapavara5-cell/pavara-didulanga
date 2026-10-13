@@ -1,0 +1,6 @@
+{
+  "name": "Smart Inventory & Daily Sales Management System",
+  "description": "Modern, responsive retail inventory and daily sales management system with real-time stock calculation, revenue tracking, and printable reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

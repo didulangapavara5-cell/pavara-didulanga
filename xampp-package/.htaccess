@@ -1,0 +1,16 @@
+# cPanel Apache Configuration for Smart Inventory & Daily Sales Management System
+Options -Indexes
+
+# Protect configuration & database files
+<FilesMatch "(database\.php|.*\.sql|\.env)">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Enable UTF-8
+AddDefaultCharset UTF-8
+
+# Compression for fast loading
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
